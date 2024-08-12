@@ -10,9 +10,8 @@
 	3. Site search
 	4. Owl Carousel
 	5. Video popup
-	6. Counter
-	7. Contact form
-	8. Back to top
+	6. Contact form
+	7. Back to top
   
 */
 
@@ -39,16 +38,6 @@ jQuery(function($) {
 	$('.nav-tabs[data-toggle="tab-hover"] > li > a').hover( function(){
     	$(this).tab('show');
 	});
-
-
-	/* ----------------------------------------------------------- */
-	/*  Main slideshow
-	/* ----------------------------------------------------------- */
-
-		$('#main-slide').carousel({
-			pause: true,
-			interval: 100000,
-		});
 
 
 	/* ----------------------------------------------------------- */
@@ -216,18 +205,6 @@ jQuery(function($) {
 			$(".popup").colorbox({iframe:true, innerWidth:600, innerHeight:400});
 
 	  });
-
-
-
-	/* ----------------------------------------------------------- */
-	/*  Counter
-	/* ----------------------------------------------------------- */
-
-		$('.counterUp').counterUp({
-		 delay: 10,
-		 time: 1000
-		});
-
 
 	
 	/* ----------------------------------------------------------- */
